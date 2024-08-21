@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  display:flex;
+  flex-flow:column;
+  gap: 4px;
+  padding: 1rem;
+}
+
+form > label{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-block: 4px;
+}
+
+label> select {
+  width: 50%;
+}
+

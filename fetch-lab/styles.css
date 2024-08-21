@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.show-table{
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+.show-table td{
+  border-collapse: collapse;
+  vertical-align: bottom;
+  border: 1px solid #bbb;
+  padding: 4px 8px;
+}
